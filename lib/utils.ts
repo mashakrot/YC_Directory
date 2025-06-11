@@ -13,3 +13,7 @@ export function formatDate(date: string) {
   })
   // new Date(date).toLocaleDateString('en-GB');
 }
+
+export function parseServerActionResponse<T>(response: T) {
+  return JSON.parse(JSON.stringify(response));
+}
