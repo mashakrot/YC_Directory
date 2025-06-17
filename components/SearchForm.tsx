@@ -10,6 +10,7 @@ const SearchForm = ({ query }: { query?: string}) => {
         <Form action='/' scroll={false} className='search-form'>
             <input name='query' defaultValue={query} className='search-input' placeholder='Search Startups' />
 
+{/* TODO: Search doesn't search for half words */}
 {/* TODO: make reset button apear not on submit but on input, means if there is any input it shows */}
             <div className='flex gap-2'>
                 {query && <SearchFormReset />}
