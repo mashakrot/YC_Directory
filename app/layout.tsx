@@ -55,6 +55,10 @@ const workSans = localFont({
 variable: '--font-work-sans'
 })
 
+
+// TODO: Theme switch
+// TODO: startups fetching and API
+
 export const metadata: Metadata = {
   title: "YC Directory",
   description: "Pitch, Vote and Grow",

@@ -148,6 +148,8 @@ const StartupForm = () => {
         )}
       </div>
 
+{/* TODO: add loading of files */}
+{/* TODO: do a drop out choice of categories*/}
       <div>
         <label htmlFor="link" className="startup-form_label">
           Image URL
